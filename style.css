@@ -1,0 +1,350 @@
+body,html{ 
+  
+display: flex; /* או grid, תלוי בעיצוב שלך */     
+flex-direction: column; /* או row */      
+justify-content: center; /* מיקום התוכן במרכז */      
+align-items: center; /* מיקום התוכן במרכז אופקית */     
+height: 100%;
+}
+body{
+   background-image:url(https://files.oaiusercontent.com/file-ryzX4uD7nE7K0FK1tsqx1GnY?se=2024-11-05T16%3A07%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9a954984-c191-4f81-989f-7e9c2aaaaadb.webp&sig=pExqFJEeq%2B92YWewpRHK9c1NhOYX0PEFT%2BzswFKqJz8%3D);
+   background-size: cover; /* מכסה את כל העמוד */
+   background-repeat: no-repeat; /* לא לחזור על התמונה */
+   background-position: center; /* מיקום התמונה במרכז *//
+
+}
+@keyframes bckground-color {
+   0% { background-color: #FF5733; }   /* 1 */
+   1% { background-color: #33FF57; }   /* 2 */
+   2% { background-color: #3357FF; }   /* 3 */
+   3% { background-color: #F1C40F; }   /* 4 */
+   4% { background-color: #8E44AD; }   /* 5 */
+   5% { background-color: #E74C3C; }   /* 6 */
+   6% { background-color: #3498DB; }   /* 7 */
+   7% { background-color: #2ECC71; }   /* 8 */
+   8% { background-color: #9B59B6; }   /* 9 */
+   9% { background-color: #F39C12; }   /* 10 */
+   10% { background-color: #D35400; }  /* 11 */
+   11% { background-color: #1ABC9C; }  /* 12 */
+   12% { background-color: #16A085; }  /* 13 */
+   13% { background-color: #27AE60; }  /* 14 */
+   14% { background-color: #2980B9; }  /* 15 */
+   15% { background-color: #8E44AD; }  /* 16 */
+   16% { background-color: #E67E22; }  /* 17 */
+   17% { background-color: #D35400; }  /* 18 */
+   18% { background-color: #C0392B; }  /* 19 */
+   19% { background-color: #2C3E50; }  /* 20 */
+   20% { background-color: #34495E; }  /* 21 */
+   21% { background-color: #F39C12; }  /* 22 */
+   22% { background-color: #E74C3C; }  /* 23 */
+   23% { background-color: #9B59B6; }  /* 24 */
+   24% { background-color: #3498DB; }  /* 25 */
+   25% { background-color: #1ABC9C; }  /* 26 */
+   26% { background-color: #16A085; }  /* 27 */
+   27% { background-color: #F1C40F; }  /* 28 */
+   28% { background-color: #8E44AD; }  /* 29 */
+   29% { background-color: #E67E22; }  /* 30 */
+   30% { background-color: #D35400; }  /* 31 */
+   31% { background-color: #C0392B; }  /* 32 */
+   32% { background-color: #2C3E50; }  /* 33 */
+   33% { background-color: #34495E; }  /* 34 */
+   34% { background-color: #F39C12; }  /* 35 */
+   35% { background-color: #E74C3C; }  /* 36 */
+   36% { background-color: #9B59B6; }  /* 37 */
+   37% { background-color: #3498DB; }  /* 38 */
+   38% { background-color: #2ECC71; }  /* 39 */
+   39% { background-color: #1ABC9C; }  /* 40 */
+   40% { background-color: #16A085; }  /* 41 */
+   41% { background-color: #F1C40F; }  /* 42 */
+   42% { background-color: #8E44AD; }  /* 43 */
+   43% { background-color: #E67E22; }  /* 44 */
+   44% { background-color: #D35400; }  /* 45 */
+   45% { background-color: #C0392B; }  /* 46 */
+   46% { background-color: #2C3E50; }  /* 47 */
+   47% { background-color: #34495E; }  /* 48 */
+   48% { background-color: #F39C12; }  /* 49 */
+   49% { background-color: #E74C3C; }  /* 50 */
+   50% { background-color: #9B59B6; }  /* 51 */
+   51% { background-color: #3498DB; }  /* 52 */
+   52% { background-color: #2ECC71; }  /* 53 */
+   53% { background-color: #1ABC9C; }  /* 54 */
+   54% { background-color: #16A085; }  /* 55 */
+   55% { background-color: #F1C40F; }  /* 56 */
+   56% { background-color: #8E44AD; }  /* 57 */
+   57% { background-color: #E67E22; }  /* 58 */
+   58% { background-color: #D35400; }  /* 59 */
+   59% { background-color: #C0392B; }  /* 60 */
+   60% { background-color: #2C3E50; }  /* 61 */
+   61% { background-color: #34495E; }  /* 62 */
+   62% { background-color: #F39C12; }  /* 63 */
+   63% { background-color: #E74C3C; }  /* 64 */
+   64% { background-color: #9B59B6; }  /* 65 */
+   65% { background-color: #3498DB; }  /* 66 */
+   66% { background-color: #2ECC71; }  /* 67 */
+   67% { background-color: #1ABC9C; }  /* 68 */
+   68% { background-color: #16A085; }  /* 69 */
+   69% { background-color: #F1C40F; }  /* 70 */
+   70% { background-color: #8E44AD; }  /* 71 */
+   71% { background-color: #E67E22; }  /* 72 */
+   72% { background-color: #D35400; }  /* 73 */
+   73% { background-color: #C0392B; }  /* 74 */
+   74% { background-color: #2C3E50; }  /* 75 */
+   75% { background-color: #34495E; }  /* 76 */
+   76% { background-color: #F39C12; }  /* 77 */
+   77% { background-color: #E74C3C; }  /* 78 */
+   78% { background-color: #9B59B6; }  /* 79 */
+   79% { background-color: #3498DB; }  /* 80 */
+   80% { background-color: #2ECC71; }  /* 81 */
+   81% { background-color: #1ABC9C; }  /* 82 */
+   82% { background-color: #16A085; }  /* 83 */
+   83% { background-color: #F1C40F; }  /* 84 */
+   84% { background-color: #8E44AD; }  /* 85 */
+   85% { background-color: #E67E22; }  /* 86 */
+   86% { background-color: #D35400; }  /* 87 */
+   87% { background-color: #C0392B; }  /* 88 */
+   88% { background-color: #2C3E50; }  /* 89 */
+   89% { background-color: #34495E; }  /* 90 */
+   90% { background-color: #F39C12; }  /* 91 */
+   91% { background-color: #E74C3C; }  /* 92 */
+   92% { background-color: #9B59B6; }  /* 93 */
+   93% { background-color: #3498DB; }  /* 94 */
+   94% { background-color: #2ECC71; }  /* 95 */
+   95% { background-color: #1ABC9C; }  /* 96 */
+   96% { background-color: #16A085; }  /* 97 */
+   97% { background-color: #F1C40F; }  /* 98 */
+   98% { background-color: #8E44AD; }  /* 99 */
+   99% { background-color: #E67E22; }  /* 100 */
+}
+#pp {
+   text-align: center;
+}
+@keyframes colorCycle {
+   0% { color: #FF0000; }   /* Red */
+    
+    
+   1% { color: #FF4000; }
+       
+      
+   2% { color: #FF8000; }
+       3% { color: #FFBF00; }
+       
+    
+   4% { color: #FFFF00; }   /* Yellow */
+       5% { color: #BFFF00; }
+       6% { color: #80FF00; }
+       
+     
+   7% { color: #40FF00; }
+       
+       
+   8% { color: #00FF00; }   /* Green */
+       9% { color: #00FF40; }
+       10% { color: #00FF80; }
+       
+    
+   11% { color: #00FFBF; }
+       
+     
+   12% { color: #00FFFF; }  /* Cyan */
+       13% { color: #00BFFF; }
+       14% { color: #0080FF; }
+       
+      
+   15% { color: #0040FF; }
+       
+     
+   16% { color: #0000FF; }  /* Blue */
+       
+      
+   17% { color: #4000FF; }
+       
+    
+   18% { color: #8000FF; }
+       
+       
+   19% { color: #BF00FF; }
+       
+     
+   20% { color: #FF00FF; }  /* Magenta */
+       
+      
+   21% { color: #FF00BF; }
+       22% { color: #FF0080; }
+       
+      
+   23% { color: #FF0040; }
+       
+    
+   24% { color: #FF0000; }
+       
+       
+   25% { color: #FF1919; }
+       26% { color: #FF3333; }
+       
+    
+   27% { color: #FF4D4D; }
+       28% { color: #FF6666; }
+       
+      
+   29% { color: #FF8080; }
+       
+    
+   30% { color: #FF9999; }
+       31% { color: #FFB3B3; }
+       
+       
+   32% { color: #FFCCCC; }
+       
+    
+   33% { color: #FFE6E6; }
+       
+      
+   34% { color: #FFFFFF; }
+       35% { color: #E6E6FF; }
+       36% { color: #CCCCFF; }
+       
+    
+   37% { color: #B3B3FF; }
+       38% { color: #9999FF; }
+       
+       
+   39% { color: #8080FF; }
+       
+     
+   40% { color: #6666FF; }
+       41% { color: #4D4DFF; }
+       
+    
+   42% { color: #3333FF; }
+       
+    
+   43% { color: #1919FF; }
+       44% { color: #0000FF; }
+       
+      
+   45% { color: #0019FF; }
+       
+    
+   46% { color: #0033FF; }
+       47% { color: #004DFF; }
+       
+    
+   48% { color: #0066FF; }
+       
+    
+   49% { color: #0080FF; }
+       
+      
+   50% { color: #0099FF; }
+       51% { color: #00B3FF; }
+       52% { color: #00CCFF; }
+       53% { color: #00E6FF; }
+       
+       
+   54% { color: #00FFFF; }
+       55% { color: #00FFE6; }
+       
+     
+   56% { color: #00FFCC; }
+       
+       
+   57% { color: #00FFB3; }
+       
+     
+   58% { color: #00FF99; }
+       59% { color: #00FF80; }
+       60% { color: #00FF66; }
+       
+     
+   61% { color: #00FF4D; }
+       
+     
+   62% { color: #00FF33; }
+       
+       
+   63% { color: #00FF19; }
+       64% { color: #00FF00; }
+       65% { color: #19FF00; }
+       
+      
+   66% { color: #33FF00; }
+       
+      
+   67% { color: #4DFF00; }
+       68% { color: #66FF00; }
+       
+      
+   69% { color: #80FF00; }
+       
+     
+   70% { color: #99FF00; }
+       
+       
+   71% { color: #B3FF00; }
+       72% { color: #CCFF00; }
+       
+       
+   73% { color: #E6FF00; }
+       74% { color: #FFFF00; }
+       
+       
+   75% { color: #FFE600; }
+       
+      
+   76% { color: #FFCC00; }
+       77% { color: #FFB300; }
+       78% { color: #FF9900; }
+       
+     
+   79% { color: #FF8000; }
+       
+     
+   80% { color: #FF6600; }
+       
+    
+   81% { color: #FF4D00; }
+       82% { color: #FF3300; }
+       83% { color: #FF1900; }
+       
+      
+   84% { color: #FF0000; }
+       85% { color: #FF0033; }
+       86% { color: #FF0066; }
+       
+       
+   87% { color: #FF0099; }
+       88% { color: #FF00CC; }
+       89% { color: #FF00FF; }
+       90% { color: #CC00FF; }
+       
+     
+   91% { color: #9900FF; }
+       
+       
+   92% { color: #6600FF; }
+       
+       
+   93% { color: #3300FF; }
+       
+      
+   94% { color: #0000FF; }
+       95% { color: #0033FF; }
+       
+     
+   96% { color: #0066FF; }
+       97% { color: #0099FF; }
+       98% { color: #00CCFF; }
+       99% { color: #00FFFF; }
+       100% { color: #00FFCC; }
+}
+
+.h2{
+   animation: colorCycle 20s infinite linear, bckground-color  20s  infinite linear ;
+   width:100px; 
+  
+}
+#score2{
+   animation: colorCycle 20s infinite linear, bckground-color  20s  infinite linear ;
+   width:300px; 
+  
+}
